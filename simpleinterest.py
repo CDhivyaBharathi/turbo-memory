@@ -2,7 +2,7 @@ from tkinter import *
 def calInterest():
     p = int(p_box.get())
     t = int(t_box.get())
-    r = int(p_box.get())
+    r = int(r_box.get())
     interest = p*t*r/100
     final = round(interest,2)
     msg = Label(res_box,text=f"The amount is {final}",font=("comicsans",14),bg="white")
